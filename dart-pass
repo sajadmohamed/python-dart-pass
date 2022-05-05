@@ -1,0 +1,49 @@
+abstract class Animal {  
+    void printName()
+    void printSound()
+    }  
+    class Dog extends Animal{
+  @override
+  void printName() {
+    print("dog name is rex");
+  }
+@override
+  void printSound() {
+    print("dog sound is bark");
+  }
+}
+
+    class Cat extends Animal{
+  @override
+  void printName() {
+    print("cat name is shade");
+  }
+@override
+  void printSound() {
+    print("cat sound is meow");
+  }
+}
+
+    class cow extends Animal{
+  @override
+  void printName() {
+    print("cow name is sara");
+  }
+@override
+  void printSound() {
+    print("cow sound is moo");
+  }
+}
+main(){
+  Dog dog = new Dog();
+dog.printSound();
+  dog.printName();
+  
+  Cat cat = new Cat();
+cat.printSound();
+  cat.printName();
+  
+  Cow cow = new Cow();
+cat.printSound();
+  cat.printName();
+}
