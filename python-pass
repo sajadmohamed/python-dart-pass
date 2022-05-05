@@ -1,0 +1,11 @@
+def even_odd(x):
+    for i in range(len(x)):
+        if x[i] % 2 == 0:
+            print(str(x[i]) + ' is even')
+        else:
+            print(str(x[i]) + ' is odd')
+
+
+n = [int(n) for n in input("Enter multiple values: ").split()]
+
+print(even_odd(n))
